@@ -142,7 +142,7 @@
     }
     return Array.from(root.children).find((element) => {
       return (
-        element.tagName == 'A' && element.getAttribute('data-panel') == 'config'
+        element.tagName == 'A' && element.getAttribute('data-panel') == 'lovelace'
       );
     });
   }
